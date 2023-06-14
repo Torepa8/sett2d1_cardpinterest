@@ -1,0 +1,140 @@
+/* .img_position{
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    border-radius: 20px;
+    top: 10px;
+} */
+
+/* .button_down{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.prove img{
+    width: 100%;
+    height: 100%;
+}
+
+.container_img img{
+    /* height: 100%; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+img:hover{
+    opacity: 0.6;
+    transition: all 1s ease;
+}
+
+.container_img{
+    position: relative;
+    background-color: black;
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+    margin: 80px 80px;
+    overflow: hidden;
+}
+
+.container_img:hover #button1{
+    /* overflow:visible; */
+    transition: all 1s ease;
+    transform: translateY(0px);
+}
+
+.container_img:hover #button2{
+    /* overflow:visible; */
+    transition: all 1s ease;
+    transform: translateY(0px);
+}
+
+.container_img:hover #button3{
+    /* overflow:visible; */
+    transition: all 1s ease;
+    transform: translateY(0px);
+}
+
+.container_img:hover #button4{
+    /* overflow:visible; */
+    transition: all 1s ease;
+    transform: translateY(0px);
+}
+
+#button1{
+    text-align: center;
+    background-color: red;
+    padding: 10px;
+    border-radius: 70px;
+    width: 40px;
+    border: 1px solid black;
+    position:relative;
+    top: 10px;
+    left: 130px;
+    transform: translateY(-60px);
+    transition: 0.4s;
+}
+
+#button2{
+    position:relative;
+    left: 10px;
+    top: 170px;
+    width: 90px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    transform: translateY(60px);
+    transition: 0.4s;
+}
+
+#button3{
+    text-align: center;
+    line-height: 20px;
+    position:relative;
+    left: 125px;
+    top: 147px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    transform: translateY(60px);
+    transition: 0.4s;
+}
+
+#button4{
+    text-align: center;
+    line-height: 20px;
+    position:relative;
+    left: 160px;
+    top: 125px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    transition: t;
+    transform: translateY(60px);
+    transition: 0.4s;
+}
+
+/* .button_up:hover{
+    background-color:red;
+    top:30%;
+    transition: all 2s ease;
+} */
+
+/* .button_down{
+    position: relative;
+    top: 80%;
+    border-radius: 100px;
+    padding: 15px 40px;
+} */
+
+/* .bgred{
+    color: red;
+    left: 70%;
+} */
